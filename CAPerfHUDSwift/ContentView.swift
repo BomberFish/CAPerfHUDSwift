@@ -12,9 +12,11 @@ struct ContentView: View {
             List {
                 ForEach(CADebugCommon.perfHUDLevelNames, id: \.self) { lvl in
                     Button(action: {
-                        CADebugCommon.setPerfHUDLevel(Int32(CADebugCommon.perfHUDLevelNames.firstIndex(of: lvl)!))
-                        currentLevel = CADebugCommon.getPerfHUDLevel()
-                        UISelectionFeedbackGenerator().selectionChanged()
+                        withAnimation(.snappy) {
+                            CADebugCommon.setPerfHUDLevel(Int32(CADebugCommon.perfHUDLevelNames.firstIndex(of: lvl)!))
+                            currentLevel = CADebugCommon.getPerfHUDLevel()
+                            UISelectionFeedbackGenerator().selectionChanged()
+                        }
                     }, label: {
                         HStack {
                             Image(systemName: currentLevel == Int32(CADebugCommon.perfHUDLevelNames.firstIndex(of: lvl)!) ? "checkmark.circle.fill" : "circle") // jank level 1000

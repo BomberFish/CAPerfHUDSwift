@@ -38,13 +38,13 @@ public struct CADebugCommon {
         if CARenderServerGetDebugOption(0, CA_DEBUG_OPTION_PERF_HUD) == 0 {
             return 0
         }
-        return CARenderServerGetDebugValue(0, 1)
+        return CARenderServerGetDebugValue(0, 1)+1;
     }
 
     static func setPerfHUDLevel(_ level: Int32) {
         CARenderServerSetDebugOption(0, CA_DEBUG_OPTION_PERF_HUD, level)
         if level > 0 {
-            CARenderServerSetDebugValue(0, 1, level)
+            CARenderServerSetDebugValue(0, 1, level-1)
         }
     }
     

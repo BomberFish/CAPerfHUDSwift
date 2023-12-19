@@ -22,7 +22,7 @@ struct ContentView: View {
                             Image(systemName: currentLevel == Int32(CADebugCommon.perfHUDLevelNames.firstIndex(of: lvl)!) ? "checkmark.circle.fill" : "circle") // jank level 1000
                                 .foregroundColor(Color(UIColor.systemBlue))
                             Text(lvl)
-                                .foregroundColor(Color(UIColor.white))
+                                .foregroundColor(Color(UIColor.label))
                         }
                     })
                 }

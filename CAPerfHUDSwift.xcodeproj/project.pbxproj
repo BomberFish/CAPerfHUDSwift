@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D694915D2B312582004FA859 /* CAPerfHudSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D694915C2B312582004FA859 /* CAPerfHudSwiftApp.swift */; };
+		D694915D2B312582004FA859 /* CAPerfHUDSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D694915C2B312582004FA859 /* CAPerfHUDSwiftApp.swift */; };
 		D694915F2B312582004FA859 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D694915E2B312582004FA859 /* ContentView.swift */; };
 		D69491612B312588004FA859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69491602B312588004FA859 /* Assets.xcassets */; };
 		D69491642B312588004FA859 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69491632B312588004FA859 /* Preview Assets.xcassets */; };
-		D694916E2B312589004FA859 /* CAPerfHudSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D694916D2B312589004FA859 /* CAPerfHudSwiftTests.swift */; };
-		D69491782B312589004FA859 /* CAPerfHudSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69491772B312589004FA859 /* CAPerfHudSwiftUITests.swift */; };
-		D694917A2B312589004FA859 /* CAPerfHudSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69491792B312589004FA859 /* CAPerfHudSwiftUITestsLaunchTests.swift */; };
+		D69491872B3125D7004FA859 /* CAPerfHudSwift.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = D69491862B3125D7004FA859 /* CAPerfHudSwift.entitlements */; };
+		D694918A2B312664004FA859 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69491892B312664004FA859 /* QuartzCore.framework */; };
+		D694918C2B31267A004FA859 /* libswiftQuartzCore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D694918B2B312669004FA859 /* libswiftQuartzCore.tbd */; };
+		D694918E2B31296C004FA859 /* CADebugCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D694918D2B31296C004FA859 /* CADebugCommon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +35,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D69491592B312582004FA859 /* CAPerfHudSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAPerfHudSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D694915C2B312582004FA859 /* CAPerfHudSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPerfHudSwiftApp.swift; sourceTree = "<group>"; };
+		D69491592B312582004FA859 /* CAPerfHUDSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAPerfHUDSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D694915C2B312582004FA859 /* CAPerfHUDSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPerfHUDSwiftApp.swift; sourceTree = "<group>"; };
 		D694915E2B312582004FA859 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D69491602B312588004FA859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D69491632B312588004FA859 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D69491692B312589004FA859 /* CAPerfHudSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAPerfHudSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D694916D2B312589004FA859 /* CAPerfHudSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPerfHudSwiftTests.swift; sourceTree = "<group>"; };
-		D69491732B312589004FA859 /* CAPerfHudSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAPerfHudSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D69491772B312589004FA859 /* CAPerfHudSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPerfHudSwiftUITests.swift; sourceTree = "<group>"; };
-		D69491792B312589004FA859 /* CAPerfHudSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPerfHudSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D69491692B312589004FA859 /* CAPerfHUDSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAPerfHUDSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69491732B312589004FA859 /* CAPerfHUDSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAPerfHUDSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69491862B3125D7004FA859 /* CAPerfHudSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CAPerfHudSwift.entitlements; sourceTree = "<group>"; };
+		D69491892B312664004FA859 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D694918B2B312669004FA859 /* libswiftQuartzCore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftQuartzCore.tbd; path = usr/lib/swift/libswiftQuartzCore.tbd; sourceTree = SDKROOT; };
+		D694918D2B31296C004FA859 /* CADebugCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADebugCommon.swift; sourceTree = "<group>"; };
+		D69491902B312FA5004FA859 /* libswiftDarwin.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftDarwin.tbd; path = usr/lib/swift/libswiftDarwin.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D694918C2B31267A004FA859 /* libswiftQuartzCore.tbd in Frameworks */,
+				D694918A2B312664004FA859 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,32 +79,33 @@
 		D69491502B312582004FA859 = {
 			isa = PBXGroup;
 			children = (
-				D694915B2B312582004FA859 /* CAPerfHudSwift */,
-				D694916C2B312589004FA859 /* CAPerfHudSwiftTests */,
-				D69491762B312589004FA859 /* CAPerfHudSwiftUITests */,
+				D694915B2B312582004FA859 /* CAPerfHUDSwift */,
 				D694915A2B312582004FA859 /* Products */,
+				D69491882B312664004FA859 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		D694915A2B312582004FA859 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D69491592B312582004FA859 /* CAPerfHudSwift.app */,
-				D69491692B312589004FA859 /* CAPerfHudSwiftTests.xctest */,
-				D69491732B312589004FA859 /* CAPerfHudSwiftUITests.xctest */,
+				D69491592B312582004FA859 /* CAPerfHUDSwift.app */,
+				D69491692B312589004FA859 /* CAPerfHUDSwiftTests.xctest */,
+				D69491732B312589004FA859 /* CAPerfHUDSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D694915B2B312582004FA859 /* CAPerfHudSwift */ = {
+		D694915B2B312582004FA859 /* CAPerfHUDSwift */ = {
 			isa = PBXGroup;
 			children = (
-				D694915C2B312582004FA859 /* CAPerfHudSwiftApp.swift */,
+				D694915C2B312582004FA859 /* CAPerfHUDSwiftApp.swift */,
 				D694915E2B312582004FA859 /* ContentView.swift */,
+				D694918D2B31296C004FA859 /* CADebugCommon.swift */,
+				D69491862B3125D7004FA859 /* CAPerfHudSwift.entitlements */,
 				D69491602B312588004FA859 /* Assets.xcassets */,
 				D69491622B312588004FA859 /* Preview Content */,
 			);
-			path = CAPerfHudSwift;
+			path = CAPerfHUDSwift;
 			sourceTree = "<group>";
 		};
 		D69491622B312588004FA859 /* Preview Content */ = {
@@ -110,29 +116,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D694916C2B312589004FA859 /* CAPerfHudSwiftTests */ = {
+		D69491882B312664004FA859 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D694916D2B312589004FA859 /* CAPerfHudSwiftTests.swift */,
+				D69491902B312FA5004FA859 /* libswiftDarwin.tbd */,
+				D694918B2B312669004FA859 /* libswiftQuartzCore.tbd */,
+				D69491892B312664004FA859 /* QuartzCore.framework */,
 			);
-			path = CAPerfHudSwiftTests;
-			sourceTree = "<group>";
-		};
-		D69491762B312589004FA859 /* CAPerfHudSwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D69491772B312589004FA859 /* CAPerfHudSwiftUITests.swift */,
-				D69491792B312589004FA859 /* CAPerfHudSwiftUITestsLaunchTests.swift */,
-			);
-			path = CAPerfHudSwiftUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D69491582B312582004FA859 /* CAPerfHudSwift */ = {
+		D69491582B312582004FA859 /* CAPerfHUDSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D694917D2B312589004FA859 /* Build configuration list for PBXNativeTarget "CAPerfHudSwift" */;
+			buildConfigurationList = D694917D2B312589004FA859 /* Build configuration list for PBXNativeTarget "CAPerfHUDSwift" */;
 			buildPhases = (
 				D69491552B312582004FA859 /* Sources */,
 				D69491562B312582004FA859 /* Frameworks */,
@@ -142,14 +141,14 @@
 			);
 			dependencies = (
 			);
-			name = CAPerfHudSwift;
+			name = CAPerfHUDSwift;
 			productName = CAPerfHudSwift;
-			productReference = D69491592B312582004FA859 /* CAPerfHudSwift.app */;
+			productReference = D69491592B312582004FA859 /* CAPerfHUDSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D69491682B312589004FA859 /* CAPerfHudSwiftTests */ = {
+		D69491682B312589004FA859 /* CAPerfHUDSwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D69491802B312589004FA859 /* Build configuration list for PBXNativeTarget "CAPerfHudSwiftTests" */;
+			buildConfigurationList = D69491802B312589004FA859 /* Build configuration list for PBXNativeTarget "CAPerfHUDSwiftTests" */;
 			buildPhases = (
 				D69491652B312589004FA859 /* Sources */,
 				D69491662B312589004FA859 /* Frameworks */,
@@ -160,14 +159,14 @@
 			dependencies = (
 				D694916B2B312589004FA859 /* PBXTargetDependency */,
 			);
-			name = CAPerfHudSwiftTests;
+			name = CAPerfHUDSwiftTests;
 			productName = CAPerfHudSwiftTests;
-			productReference = D69491692B312589004FA859 /* CAPerfHudSwiftTests.xctest */;
+			productReference = D69491692B312589004FA859 /* CAPerfHUDSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D69491722B312589004FA859 /* CAPerfHudSwiftUITests */ = {
+		D69491722B312589004FA859 /* CAPerfHUDSwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D69491832B312589004FA859 /* Build configuration list for PBXNativeTarget "CAPerfHudSwiftUITests" */;
+			buildConfigurationList = D69491832B312589004FA859 /* Build configuration list for PBXNativeTarget "CAPerfHUDSwiftUITests" */;
 			buildPhases = (
 				D694916F2B312589004FA859 /* Sources */,
 				D69491702B312589004FA859 /* Frameworks */,
@@ -178,9 +177,9 @@
 			dependencies = (
 				D69491752B312589004FA859 /* PBXTargetDependency */,
 			);
-			name = CAPerfHudSwiftUITests;
+			name = CAPerfHUDSwiftUITests;
 			productName = CAPerfHudSwiftUITests;
-			productReference = D69491732B312589004FA859 /* CAPerfHudSwiftUITests.xctest */;
+			productReference = D69491732B312589004FA859 /* CAPerfHUDSwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D69491542B312582004FA859 /* Build configuration list for PBXProject "CAPerfHudSwift" */;
+			buildConfigurationList = D69491542B312582004FA859 /* Build configuration list for PBXProject "CAPerfHUDSwift" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +218,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D69491582B312582004FA859 /* CAPerfHudSwift */,
-				D69491682B312589004FA859 /* CAPerfHudSwiftTests */,
-				D69491722B312589004FA859 /* CAPerfHudSwiftUITests */,
+				D69491582B312582004FA859 /* CAPerfHUDSwift */,
+				D69491682B312589004FA859 /* CAPerfHUDSwiftTests */,
+				D69491722B312589004FA859 /* CAPerfHUDSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +232,7 @@
 			files = (
 				D69491642B312588004FA859 /* Preview Assets.xcassets in Resources */,
 				D69491612B312588004FA859 /* Assets.xcassets in Resources */,
+				D69491872B3125D7004FA859 /* CAPerfHudSwift.entitlements in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D694918E2B31296C004FA859 /* CADebugCommon.swift in Sources */,
 				D694915F2B312582004FA859 /* ContentView.swift in Sources */,
-				D694915D2B312582004FA859 /* CAPerfHudSwiftApp.swift in Sources */,
+				D694915D2B312582004FA859 /* CAPerfHUDSwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D694916E2B312589004FA859 /* CAPerfHudSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +274,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D69491782B312589004FA859 /* CAPerfHudSwiftUITests.swift in Sources */,
-				D694917A2B312589004FA859 /* CAPerfHudSwiftUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		D694916B2B312589004FA859 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D69491582B312582004FA859 /* CAPerfHudSwift */;
+			target = D69491582B312582004FA859 /* CAPerfHUDSwift */;
 			targetProxy = D694916A2B312589004FA859 /* PBXContainerItemProxy */;
 		};
 		D69491752B312589004FA859 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D69491582B312582004FA859 /* CAPerfHudSwift */;
+			target = D69491582B312582004FA859 /* CAPerfHUDSwift */;
 			targetProxy = D69491742B312589004FA859 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,14 +427,23 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ca.bomberfish.CAPerfHudSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,14 +464,23 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ca.bomberfish.CAPerfHudSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -485,7 +501,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAPerfHudSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CAPerfHudSwift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAPerfHUDSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CAPerfHUDSwift";
 			};
 			name = Debug;
 		};
@@ -504,7 +520,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAPerfHudSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CAPerfHudSwift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAPerfHUDSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CAPerfHUDSwift";
 			};
 			name = Release;
 		};
@@ -545,7 +561,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D69491542B312582004FA859 /* Build configuration list for PBXProject "CAPerfHudSwift" */ = {
+		D69491542B312582004FA859 /* Build configuration list for PBXProject "CAPerfHUDSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D694917B2B312589004FA859 /* Debug */,
@@ -554,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D694917D2B312589004FA859 /* Build configuration list for PBXNativeTarget "CAPerfHudSwift" */ = {
+		D694917D2B312589004FA859 /* Build configuration list for PBXNativeTarget "CAPerfHUDSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D694917E2B312589004FA859 /* Debug */,
@@ -563,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D69491802B312589004FA859 /* Build configuration list for PBXNativeTarget "CAPerfHudSwiftTests" */ = {
+		D69491802B312589004FA859 /* Build configuration list for PBXNativeTarget "CAPerfHUDSwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D69491812B312589004FA859 /* Debug */,
@@ -572,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D69491832B312589004FA859 /* Build configuration list for PBXNativeTarget "CAPerfHudSwiftUITests" */ = {
+		D69491832B312589004FA859 /* Build configuration list for PBXNativeTarget "CAPerfHUDSwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D69491842B312589004FA859 /* Debug */,
